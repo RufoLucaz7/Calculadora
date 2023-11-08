@@ -1,0 +1,63 @@
+@font-face {
+    font-family:nova ;
+    src: url(High\ Speed.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('https://4kwallpapers.com/images/wallpapers/lamborghini-aventador-super-sports-cars-3840x2353-5740.jpg') center;
+    background-size: cover;
+    height: 100vh;
+    color: #A544E0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    place-items: center;
+}
+/* MEU NOME */
+h1{
+    color: #A544E0;
+    text-shadow: 2px 2px black;
+    font-family: nova;
+    position: absolute;
+    top: 2%;
+}
+/* FUNDO DA CALCULADORA */
+.calculadora{
+    background: black;
+    font-family: nova;
+    border-radius: 4%;
+    padding: 2%;
+}
+h2{
+    font-size: 1.5rem;
+}
+#resultado{
+    background: #fff;
+    color: black;
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 2%;
+    overflow: hidden;
+    width: 14rem;
+}
+/* NUMEROS DA CALCULADORA */
+button{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-family: nova;
+    cursor: pointer;
+    margin: .2rem;
+    background-color: #A544E0;
+    border: none;
+    transition: all .5s;
+}
+button:hover{
+    border: 3px solid #fff;
+    background: #8E3DAC;
+    transform: scale(150%);
+}
